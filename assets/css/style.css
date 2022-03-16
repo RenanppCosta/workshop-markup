@@ -4,6 +4,7 @@
     font-family: "Merriweather", serif ;
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 body{
@@ -79,21 +80,38 @@ input, select{
 .bibliografia{
     background-color: #202121;
     padding: 40px;
+    text-align: center;
 
 }
 
 .foto{
-    width: 150px;
+    width: 160px;
 }
 
 .descricao{
     color: white;
     display: inline-block;
+    text-align: left;
     width: 40%;
     margin-left: 40px;
 }
 
 .descricao h3, .descricao p{
     margin-bottom: 20px;
+
 }
 
+.descricao p{
+    font-size: 15px;
+}
+
+footer{
+    background-color: lightskyblue;
+    padding: 14px;
+    text-align: center;
+    color: white;
+}
+
+a{
+    color: white;
+}

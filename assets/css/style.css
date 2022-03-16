@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+*{
+    font-family: "Merriweather", serif ;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: lightskyblue;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.titulo{
+    font-size: 25px;
+    
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+
+.conteudo-principal{
+    color: white;
+    padding: 20px;
+    background-image: url('..//img/people.jpg');
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.formulario{
+    width: 230px;
+    background-color: #ffffffBB;
+    padding: 20px;
+    float: right;
+}
+
+.formulario h1{
+    font-size: 16px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.formulario p{
+    font-size: 14px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#botao{
+    color: white;
+    background-color: lightskyblue;
+}
+
+#botao:hover{
+    color: lightskyblue;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.bibliografia{
+    background-color: #202121;
+    padding: 40px;
+
+}
+
+.foto{
+    width: 150px;
+}
+
+.descricao{
+    color: white;
+    display: inline-block;
+    width: 40%;
+    margin-left: 40px;
+}
+
+.descricao h3, .descricao p{
+    margin-bottom: 20px;
+}
+
